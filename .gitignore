@@ -1,0 +1,32 @@
+# Runtime and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded media and model weights
+assets/*.ogv
+assets/*.mp4
+!assets/source.mp4
+assets/*.onnx
+assets/*.part
+assets/*.tmp
+
+# Generated render products and local experiments
+output/*.mp4
+output/*.jpg
+output/*.png
+output/*.zip
+output/custom/
+output/deliverables.json
+*.log
