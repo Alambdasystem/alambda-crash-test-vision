@@ -2,11 +2,15 @@
 
 An assisted OpenCV (`cv2`) prototype that adds a vehicle box, a temporary tracking ID, and an image-space movement trail to a controlled crash-test recording.
 
-[Watch the demo](docs/demo.mp4) · [Download the MP4](docs/demo.mp4?raw=true) · [Download the code ZIP](docs/code.zip?raw=true) · [Join the free ArchTek AI community](https://www.skool.com/archtek-ai-6649/about)
+[Watch the demo](docs/demo.mp4) · [Explore the interactive viewer](docs/VIEWER.md) · [Download the MP4](docs/demo.mp4?raw=true) · [Download the code ZIP](docs/code.zip?raw=true) · [Join the free ArchTek AI community](https://www.skool.com/archtek-ai-6649/about)
 
 [![Annotated NHTSA crash-test demo with a vehicle box, movement trail, and contact detail](docs/demo-preview.jpg)](docs/demo.mp4)
 
 The sample is a short excerpt of [NHTSA's test of the 2006 Honda Ridgeline](https://commons.wikimedia.org/wiki/File:NHTSA_Crash_Test_of_the_2006_Honda_Ridgeline.ogv): source playback seconds **50–56**, extracted as **180 frames at 30000/1001 FPS** (6.006 seconds). Its source is already slow motion. Playback multipliers and timestamps in this demo refer to the **source video**, not physical time during the crash.
+
+## Explore the interactive viewer
+
+The [interactive Crash Lab](docs/VIEWER.md) lets you step through all 180 source frames, change source-relative playback speed, inspect a synchronized contact crop, and toggle the recorded box and box-center trail. [Download its portable HTML](docs/viewer.html?raw=true) and open the saved file in a browser. The frame data and controls are embedded; external links require internet access. The [viewer source package](docs/viewer-source.zip?raw=true) includes the editable HTML/CSS/JavaScript and frame-export tools.
 
 ## Run the included example
 
@@ -78,5 +82,8 @@ Explore the related **[Alambda Basketball Vision](https://github.com/Alambdasyst
 | `docs/demo.mp4` | Finished annotated demonstration |
 | `docs/demo-preview.jpg` | Preview image |
 | `docs/code.zip` | Standalone runnable example with source footage and tracks |
+| `docs/VIEWER.md` | Interactive viewer instructions and interpretation notes |
+| `docs/viewer.html` | Portable browser viewer with embedded recorded frames |
+| `docs/viewer-source.zip` | Editable viewer source, frame sheets, and export tools |
 
 Code: **Alambda Systems**, distributed under [Apache License 2.0](LICENSE). Footage: **NHTSA**, hosted by Wikimedia Commons, which identifies it as a U.S. government public-domain work. Detection model and decoding example: **OpenCV Zoo / YOLOX**. See [THIRD_PARTY.md](THIRD_PARTY.md) for source links and licensing details.
