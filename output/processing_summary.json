@@ -1,0 +1,33 @@
+{
+  "frames": 180,
+  "reported_source_frames": 180,
+  "fps": 29.97002997002997,
+  "duration_s": 6.006,
+  "detected_frames": 180,
+  "missing_frames": 0,
+  "coverage_fraction": 1.0,
+  "vehicle_candidate_detections": 429,
+  "accepted_class_counts": {
+    "car": 0,
+    "bus": 0,
+    "truck": 180
+  },
+  "interpolated_or_continued_observations": 0,
+  "elapsed_s": 51.02,
+  "selection_roi_normalized": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "limitations": [
+    "Experimental vehicle detection on a controlled crash-test clip; no independent accuracy benchmark.",
+    "V1 is a temporary single-video association, not a persistent or verified vehicle identity.",
+    "All boxes are actual detector outputs; missing detections are omitted and no positions are interpolated.",
+    "Bounding-box center is an image-space visualization point, not a physical landmark or center of mass.",
+    "Crushing, occlusion, debris, and motion blur can cause missed, fragmented, or inaccurate detections.",
+    "No calibrated speed, distance, acceleration, impact force, causation, or fault is inferred.",
+    "Timestamps describe this source file's playback time; capture frame rate may differ."
+  ],
+  "note": "Coverage describes whether a detection was emitted, not accuracy or identity correctness."
+}

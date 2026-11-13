@@ -1,0 +1,4362 @@
+{
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 29.97002997002997,
+    "frames": 180,
+    "duration_s": 6.006
+  },
+  "method": {
+    "detector": "OpenCV Zoo YOLOX-S ONNX (COCO pretrained)",
+    "detector_source": "https://github.com/opencv/opencv_zoo/tree/main/models/object_detection_yolox",
+    "classes": {
+      "2": "car",
+      "5": "bus",
+      "7": "truck"
+    },
+    "confidence_threshold": 0.2,
+    "nms_iou_threshold": 0.45,
+    "class_selection": "Highest-scoring COCO class per proposal; retain car (2), bus (5), or truck (7).",
+    "selection": "Largest eligible vehicle initially, then overlap and center proximity to the last actual detection.",
+    "roi_normalized": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "min_bbox_area_ratio": 0.05,
+    "continuations": false,
+    "point": "Bounding-box center in source-image pixels.",
+    "limitations": [
+      "Experimental vehicle detection on a controlled crash-test clip; no independent accuracy benchmark.",
+      "V1 is a temporary single-video association, not a persistent or verified vehicle identity.",
+      "All boxes are actual detector outputs; missing detections are omitted and no positions are interpolated.",
+      "Bounding-box center is an image-space visualization point, not a physical landmark or center of mass.",
+      "Crushing, occlusion, debris, and motion blur can cause missed, fragmented, or inaccurate detections.",
+      "No calibrated speed, distance, acceleration, impact force, causation, or fault is inferred.",
+      "Timestamps describe this source file's playback time; capture frame rate may differ."
+    ]
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "source_time_s": 0.0,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8969,
+          "bbox": [
+            149.56,
+            242.91,
+            791.15,
+            485.74
+          ],
+          "point": [
+            470.36,
+            364.32
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "source_time_s": 0.033367,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9162,
+          "bbox": [
+            150.53,
+            242.15,
+            794.99,
+            485.41
+          ],
+          "point": [
+            472.76,
+            363.78
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "source_time_s": 0.066733,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.899,
+          "bbox": [
+            150.88,
+            243.81,
+            803.18,
+            485.5
+          ],
+          "point": [
+            477.03,
+            364.65
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "source_time_s": 0.1001,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9224,
+          "bbox": [
+            152.15,
+            245.55,
+            803.1,
+            484.27
+          ],
+          "point": [
+            477.62,
+            364.91
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "source_time_s": 0.133467,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9235,
+          "bbox": [
+            151.42,
+            246.32,
+            808.84,
+            484.54
+          ],
+          "point": [
+            480.13,
+            365.43
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "source_time_s": 0.166833,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8985,
+          "bbox": [
+            149.6,
+            245.4,
+            817.55,
+            484.88
+          ],
+          "point": [
+            483.57,
+            365.14
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "source_time_s": 0.2002,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8812,
+          "bbox": [
+            149.9,
+            244.55,
+            827.58,
+            485.77
+          ],
+          "point": [
+            488.74,
+            365.16
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "source_time_s": 0.233567,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8865,
+          "bbox": [
+            150.49,
+            244.86,
+            833.82,
+            486.83
+          ],
+          "point": [
+            492.16,
+            365.85
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "source_time_s": 0.266933,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8936,
+          "bbox": [
+            153.83,
+            244.96,
+            833.49,
+            485.76
+          ],
+          "point": [
+            493.66,
+            365.36
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "source_time_s": 0.3003,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.91,
+          "bbox": [
+            153.62,
+            244.91,
+            833.67,
+            487.32
+          ],
+          "point": [
+            493.64,
+            366.12
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "source_time_s": 0.333667,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9017,
+          "bbox": [
+            155.68,
+            246.38,
+            840.91,
+            489.37
+          ],
+          "point": [
+            498.29,
+            367.88
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "source_time_s": 0.367033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8897,
+          "bbox": [
+            165.89,
+            244.35,
+            846.44,
+            487.22
+          ],
+          "point": [
+            506.17,
+            365.79
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "source_time_s": 0.4004,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9085,
+          "bbox": [
+            173.52,
+            242.68,
+            863.12,
+            484.37
+          ],
+          "point": [
+            518.32,
+            363.52
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "source_time_s": 0.433767,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9057,
+          "bbox": [
+            179.85,
+            240.75,
+            863.44,
+            483.94
+          ],
+          "point": [
+            521.64,
+            362.35
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "source_time_s": 0.467133,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9098,
+          "bbox": [
+            183.15,
+            238.77,
+            891.9,
+            482.41
+          ],
+          "point": [
+            537.52,
+            360.59
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "source_time_s": 0.5005,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9058,
+          "bbox": [
+            185.63,
+            243.11,
+            894.86,
+            483.39
+          ],
+          "point": [
+            540.25,
+            363.25
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "source_time_s": 0.533867,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9104,
+          "bbox": [
+            191.66,
+            243.03,
+            885.06,
+            483.81
+          ],
+          "point": [
+            538.36,
+            363.42
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "source_time_s": 0.567233,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9069,
+          "bbox": [
+            198.68,
+            241.39,
+            908.26,
+            484.07
+          ],
+          "point": [
+            553.47,
+            362.73
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "source_time_s": 0.6006,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8938,
+          "bbox": [
+            203.69,
+            244.04,
+            908.08,
+            486.27
+          ],
+          "point": [
+            555.88,
+            365.15
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "source_time_s": 0.633967,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.89,
+          "bbox": [
+            211.63,
+            241.42,
+            902.08,
+            488.67
+          ],
+          "point": [
+            556.86,
+            365.05
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "source_time_s": 0.667333,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8551,
+          "bbox": [
+            218.19,
+            240.27,
+            900.12,
+            490.4
+          ],
+          "point": [
+            559.15,
+            365.33
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "source_time_s": 0.7007,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9012,
+          "bbox": [
+            225.53,
+            240.9,
+            908.91,
+            486.06
+          ],
+          "point": [
+            567.22,
+            363.48
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "source_time_s": 0.734067,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9103,
+          "bbox": [
+            230.58,
+            239.12,
+            908.56,
+            483.99
+          ],
+          "point": [
+            569.57,
+            361.56
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "source_time_s": 0.767433,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9042,
+          "bbox": [
+            232.2,
+            238.79,
+            910.46,
+            483.12
+          ],
+          "point": [
+            571.33,
+            360.95
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "source_time_s": 0.8008,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9046,
+          "bbox": [
+            237.73,
+            237.25,
+            921.85,
+            481.48
+          ],
+          "point": [
+            579.79,
+            359.37
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "source_time_s": 0.834167,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8917,
+          "bbox": [
+            242.98,
+            236.8,
+            901.33,
+            482.3
+          ],
+          "point": [
+            572.15,
+            359.55
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "source_time_s": 0.867533,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8776,
+          "bbox": [
+            247.56,
+            235.96,
+            901.65,
+            483.29
+          ],
+          "point": [
+            574.61,
+            359.62
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "source_time_s": 0.9009,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8402,
+          "bbox": [
+            252.78,
+            237.86,
+            829.73,
+            483.72
+          ],
+          "point": [
+            541.25,
+            360.79
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "source_time_s": 0.934267,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8783,
+          "bbox": [
+            252.89,
+            237.96,
+            906.48,
+            485.31
+          ],
+          "point": [
+            579.68,
+            361.63
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "source_time_s": 0.967633,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.889,
+          "bbox": [
+            256.02,
+            238.24,
+            917.47,
+            485.65
+          ],
+          "point": [
+            586.75,
+            361.94
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "source_time_s": 1.001,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.882,
+          "bbox": [
+            261.41,
+            238.46,
+            925.17,
+            486.28
+          ],
+          "point": [
+            593.29,
+            362.37
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "source_time_s": 1.034367,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8956,
+          "bbox": [
+            265.47,
+            238.06,
+            923.18,
+            486.18
+          ],
+          "point": [
+            594.33,
+            362.12
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "source_time_s": 1.067733,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8935,
+          "bbox": [
+            270.88,
+            237.25,
+            904.92,
+            485.08
+          ],
+          "point": [
+            587.9,
+            361.16
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "source_time_s": 1.1011,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8778,
+          "bbox": [
+            274.55,
+            237.99,
+            891.92,
+            485.43
+          ],
+          "point": [
+            583.24,
+            361.71
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "source_time_s": 1.134467,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8667,
+          "bbox": [
+            278.9,
+            237.34,
+            866.05,
+            486.3
+          ],
+          "point": [
+            572.47,
+            361.82
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "source_time_s": 1.167833,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8778,
+          "bbox": [
+            285.2,
+            235.93,
+            887.83,
+            486.34
+          ],
+          "point": [
+            586.51,
+            361.13
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "source_time_s": 1.2012,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8962,
+          "bbox": [
+            290.35,
+            235.53,
+            917.26,
+            485.08
+          ],
+          "point": [
+            603.81,
+            360.31
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "source_time_s": 1.234567,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9032,
+          "bbox": [
+            291.19,
+            236.05,
+            921.72,
+            484.76
+          ],
+          "point": [
+            606.46,
+            360.4
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "source_time_s": 1.267933,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8953,
+          "bbox": [
+            292.47,
+            234.1,
+            923.4,
+            481.99
+          ],
+          "point": [
+            607.93,
+            358.05
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "source_time_s": 1.3013,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9024,
+          "bbox": [
+            295.6,
+            234.79,
+            923.54,
+            485.15
+          ],
+          "point": [
+            609.57,
+            359.97
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "source_time_s": 1.334667,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9013,
+          "bbox": [
+            293.69,
+            235.19,
+            922.29,
+            483.33
+          ],
+          "point": [
+            607.99,
+            359.26
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "source_time_s": 1.368033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8968,
+          "bbox": [
+            294.49,
+            234.64,
+            924.93,
+            484.33
+          ],
+          "point": [
+            609.71,
+            359.49
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "source_time_s": 1.4014,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8926,
+          "bbox": [
+            297.35,
+            235.9,
+            924.27,
+            485.96
+          ],
+          "point": [
+            610.81,
+            360.93
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 43,
+      "source_time_s": 1.434767,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8926,
+          "bbox": [
+            298.0,
+            236.8,
+            927.14,
+            484.84
+          ],
+          "point": [
+            612.57,
+            360.82
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 44,
+      "source_time_s": 1.468133,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8978,
+          "bbox": [
+            297.83,
+            237.58,
+            928.85,
+            485.72
+          ],
+          "point": [
+            613.34,
+            361.65
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "source_time_s": 1.5015,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.906,
+          "bbox": [
+            297.15,
+            235.7,
+            928.72,
+            485.42
+          ],
+          "point": [
+            612.93,
+            360.56
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "source_time_s": 1.534867,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9102,
+          "bbox": [
+            298.29,
+            235.54,
+            928.98,
+            483.47
+          ],
+          "point": [
+            613.63,
+            359.5
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 47,
+      "source_time_s": 1.568233,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9021,
+          "bbox": [
+            298.18,
+            235.85,
+            935.09,
+            483.31
+          ],
+          "point": [
+            616.63,
+            359.58
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 48,
+      "source_time_s": 1.6016,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.898,
+          "bbox": [
+            299.96,
+            235.6,
+            933.98,
+            485.15
+          ],
+          "point": [
+            616.97,
+            360.38
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "source_time_s": 1.634967,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9014,
+          "bbox": [
+            299.31,
+            234.6,
+            934.18,
+            484.99
+          ],
+          "point": [
+            616.75,
+            359.8
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 50,
+      "source_time_s": 1.668333,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9013,
+          "bbox": [
+            298.64,
+            234.31,
+            933.57,
+            485.1
+          ],
+          "point": [
+            616.11,
+            359.71
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "source_time_s": 1.7017,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9011,
+          "bbox": [
+            298.87,
+            232.86,
+            929.27,
+            484.78
+          ],
+          "point": [
+            614.07,
+            358.82
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 52,
+      "source_time_s": 1.735067,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.897,
+          "bbox": [
+            298.05,
+            234.94,
+            931.57,
+            484.43
+          ],
+          "point": [
+            614.81,
+            359.69
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "source_time_s": 1.768433,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8933,
+          "bbox": [
+            292.69,
+            234.26,
+            930.96,
+            482.68
+          ],
+          "point": [
+            611.83,
+            358.47
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 54,
+      "source_time_s": 1.8018,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9008,
+          "bbox": [
+            293.69,
+            234.38,
+            930.23,
+            484.92
+          ],
+          "point": [
+            611.96,
+            359.65
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 55,
+      "source_time_s": 1.835167,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8969,
+          "bbox": [
+            295.43,
+            233.8,
+            929.91,
+            485.36
+          ],
+          "point": [
+            612.67,
+            359.58
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 56,
+      "source_time_s": 1.868533,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8966,
+          "bbox": [
+            295.55,
+            231.3,
+            934.97,
+            483.74
+          ],
+          "point": [
+            615.26,
+            357.52
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 57,
+      "source_time_s": 1.9019,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8967,
+          "bbox": [
+            297.07,
+            229.86,
+            934.47,
+            483.61
+          ],
+          "point": [
+            615.77,
+            356.74
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 58,
+      "source_time_s": 1.935267,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9049,
+          "bbox": [
+            293.95,
+            229.22,
+            930.44,
+            480.72
+          ],
+          "point": [
+            612.2,
+            354.97
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 59,
+      "source_time_s": 1.968633,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9053,
+          "bbox": [
+            294.45,
+            227.3,
+            928.14,
+            478.8
+          ],
+          "point": [
+            611.29,
+            353.05
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "source_time_s": 2.002,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9066,
+          "bbox": [
+            293.11,
+            226.98,
+            928.08,
+            479.33
+          ],
+          "point": [
+            610.6,
+            353.15
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "source_time_s": 2.035367,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9037,
+          "bbox": [
+            292.68,
+            227.93,
+            929.6,
+            478.98
+          ],
+          "point": [
+            611.14,
+            353.46
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 62,
+      "source_time_s": 2.068733,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9006,
+          "bbox": [
+            290.32,
+            227.42,
+            928.22,
+            477.76
+          ],
+          "point": [
+            609.27,
+            352.59
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 63,
+      "source_time_s": 2.1021,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8896,
+          "bbox": [
+            288.22,
+            228.33,
+            929.26,
+            476.93
+          ],
+          "point": [
+            608.74,
+            352.63
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 64,
+      "source_time_s": 2.135467,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8913,
+          "bbox": [
+            283.04,
+            226.73,
+            928.67,
+            476.16
+          ],
+          "point": [
+            605.86,
+            351.44
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 65,
+      "source_time_s": 2.168833,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8919,
+          "bbox": [
+            279.52,
+            227.44,
+            927.4,
+            475.58
+          ],
+          "point": [
+            603.46,
+            351.51
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 66,
+      "source_time_s": 2.2022,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8951,
+          "bbox": [
+            279.32,
+            227.58,
+            930.44,
+            478.9
+          ],
+          "point": [
+            604.88,
+            353.24
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 67,
+      "source_time_s": 2.235567,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9032,
+          "bbox": [
+            275.93,
+            224.78,
+            934.22,
+            477.3
+          ],
+          "point": [
+            605.08,
+            351.04
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 68,
+      "source_time_s": 2.268933,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9016,
+          "bbox": [
+            275.9,
+            227.11,
+            933.29,
+            479.42
+          ],
+          "point": [
+            604.6,
+            353.26
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 69,
+      "source_time_s": 2.3023,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9069,
+          "bbox": [
+            277.6,
+            224.76,
+            916.89,
+            478.48
+          ],
+          "point": [
+            597.25,
+            351.62
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "source_time_s": 2.335667,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9068,
+          "bbox": [
+            274.61,
+            225.41,
+            930.39,
+            478.37
+          ],
+          "point": [
+            602.5,
+            351.89
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 71,
+      "source_time_s": 2.369033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9074,
+          "bbox": [
+            278.19,
+            223.99,
+            913.76,
+            479.86
+          ],
+          "point": [
+            595.98,
+            351.93
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "source_time_s": 2.4024,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9096,
+          "bbox": [
+            275.68,
+            221.84,
+            927.28,
+            477.4
+          ],
+          "point": [
+            601.48,
+            349.62
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 73,
+      "source_time_s": 2.435767,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9123,
+          "bbox": [
+            274.06,
+            221.0,
+            926.07,
+            476.38
+          ],
+          "point": [
+            600.07,
+            348.69
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 74,
+      "source_time_s": 2.469133,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9097,
+          "bbox": [
+            275.73,
+            220.9,
+            911.21,
+            476.99
+          ],
+          "point": [
+            593.47,
+            348.94
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 75,
+      "source_time_s": 2.5025,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9101,
+          "bbox": [
+            267.19,
+            219.7,
+            911.64,
+            475.65
+          ],
+          "point": [
+            589.41,
+            347.67
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 76,
+      "source_time_s": 2.535867,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9114,
+          "bbox": [
+            269.52,
+            220.45,
+            907.06,
+            477.34
+          ],
+          "point": [
+            588.29,
+            348.89
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 77,
+      "source_time_s": 2.569233,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9131,
+          "bbox": [
+            271.21,
+            222.48,
+            902.27,
+            480.48
+          ],
+          "point": [
+            586.74,
+            351.48
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 78,
+      "source_time_s": 2.6026,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9119,
+          "bbox": [
+            274.33,
+            222.87,
+            903.06,
+            481.73
+          ],
+          "point": [
+            588.69,
+            352.3
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 79,
+      "source_time_s": 2.635967,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9078,
+          "bbox": [
+            275.28,
+            223.81,
+            901.91,
+            482.17
+          ],
+          "point": [
+            588.6,
+            352.99
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 80,
+      "source_time_s": 2.669333,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9066,
+          "bbox": [
+            273.14,
+            223.28,
+            899.83,
+            480.31
+          ],
+          "point": [
+            586.49,
+            351.8
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 81,
+      "source_time_s": 2.7027,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.911,
+          "bbox": [
+            270.01,
+            221.54,
+            898.51,
+            480.02
+          ],
+          "point": [
+            584.26,
+            350.78
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 82,
+      "source_time_s": 2.736067,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9141,
+          "bbox": [
+            269.53,
+            220.71,
+            900.31,
+            479.82
+          ],
+          "point": [
+            584.92,
+            350.26
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 83,
+      "source_time_s": 2.769433,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9123,
+          "bbox": [
+            269.68,
+            219.41,
+            900.84,
+            476.81
+          ],
+          "point": [
+            585.26,
+            348.11
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 84,
+      "source_time_s": 2.8028,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9103,
+          "bbox": [
+            267.84,
+            218.19,
+            898.92,
+            476.58
+          ],
+          "point": [
+            583.38,
+            347.38
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 85,
+      "source_time_s": 2.836167,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9081,
+          "bbox": [
+            266.89,
+            217.94,
+            899.69,
+            476.33
+          ],
+          "point": [
+            583.29,
+            347.13
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 86,
+      "source_time_s": 2.869533,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9072,
+          "bbox": [
+            265.4,
+            218.54,
+            901.45,
+            475.61
+          ],
+          "point": [
+            583.42,
+            347.07
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 87,
+      "source_time_s": 2.9029,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9074,
+          "bbox": [
+            262.61,
+            219.06,
+            908.57,
+            476.24
+          ],
+          "point": [
+            585.59,
+            347.65
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 88,
+      "source_time_s": 2.936267,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9095,
+          "bbox": [
+            262.72,
+            219.39,
+            908.1,
+            476.27
+          ],
+          "point": [
+            585.41,
+            347.83
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 89,
+      "source_time_s": 2.969633,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.906,
+          "bbox": [
+            261.19,
+            220.01,
+            910.21,
+            476.11
+          ],
+          "point": [
+            585.7,
+            348.06
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 90,
+      "source_time_s": 3.003,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9117,
+          "bbox": [
+            257.95,
+            221.24,
+            905.59,
+            475.72
+          ],
+          "point": [
+            581.77,
+            348.48
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "source_time_s": 3.036367,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9106,
+          "bbox": [
+            257.6,
+            221.04,
+            904.49,
+            474.18
+          ],
+          "point": [
+            581.05,
+            347.61
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 92,
+      "source_time_s": 3.069733,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9095,
+          "bbox": [
+            263.34,
+            220.01,
+            895.06,
+            473.92
+          ],
+          "point": [
+            579.2,
+            346.97
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 93,
+      "source_time_s": 3.1031,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.913,
+          "bbox": [
+            263.38,
+            220.11,
+            893.88,
+            471.7
+          ],
+          "point": [
+            578.63,
+            345.9
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 94,
+      "source_time_s": 3.136467,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9116,
+          "bbox": [
+            263.56,
+            218.58,
+            894.0,
+            472.37
+          ],
+          "point": [
+            578.78,
+            345.48
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 95,
+      "source_time_s": 3.169833,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9103,
+          "bbox": [
+            262.34,
+            219.55,
+            895.21,
+            472.64
+          ],
+          "point": [
+            578.77,
+            346.1
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 96,
+      "source_time_s": 3.2032,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9042,
+          "bbox": [
+            261.52,
+            220.12,
+            896.57,
+            470.37
+          ],
+          "point": [
+            579.05,
+            345.25
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 97,
+      "source_time_s": 3.236567,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9022,
+          "bbox": [
+            260.98,
+            220.18,
+            898.38,
+            471.71
+          ],
+          "point": [
+            579.68,
+            345.94
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 98,
+      "source_time_s": 3.269933,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8992,
+          "bbox": [
+            259.89,
+            220.18,
+            897.45,
+            471.75
+          ],
+          "point": [
+            578.67,
+            345.97
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 99,
+      "source_time_s": 3.3033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9038,
+          "bbox": [
+            261.21,
+            220.29,
+            895.17,
+            471.47
+          ],
+          "point": [
+            578.19,
+            345.88
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 100,
+      "source_time_s": 3.336667,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9057,
+          "bbox": [
+            260.07,
+            220.4,
+            896.38,
+            472.71
+          ],
+          "point": [
+            578.23,
+            346.56
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 101,
+      "source_time_s": 3.370033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.905,
+          "bbox": [
+            256.82,
+            219.04,
+            897.1,
+            470.26
+          ],
+          "point": [
+            576.96,
+            344.65
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 102,
+      "source_time_s": 3.4034,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9008,
+          "bbox": [
+            257.39,
+            218.67,
+            902.35,
+            472.28
+          ],
+          "point": [
+            579.87,
+            345.47
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 103,
+      "source_time_s": 3.436767,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8988,
+          "bbox": [
+            257.37,
+            218.65,
+            906.1,
+            473.64
+          ],
+          "point": [
+            581.74,
+            346.14
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 104,
+      "source_time_s": 3.470133,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9004,
+          "bbox": [
+            256.42,
+            217.77,
+            902.69,
+            472.56
+          ],
+          "point": [
+            579.56,
+            345.17
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 105,
+      "source_time_s": 3.5035,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9008,
+          "bbox": [
+            255.22,
+            218.12,
+            902.45,
+            472.67
+          ],
+          "point": [
+            578.84,
+            345.39
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 106,
+      "source_time_s": 3.536867,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8997,
+          "bbox": [
+            253.2,
+            218.46,
+            901.48,
+            472.95
+          ],
+          "point": [
+            577.34,
+            345.7
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 107,
+      "source_time_s": 3.570233,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9012,
+          "bbox": [
+            247.88,
+            217.69,
+            900.25,
+            471.47
+          ],
+          "point": [
+            574.07,
+            344.58
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 108,
+      "source_time_s": 3.6036,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9013,
+          "bbox": [
+            251.96,
+            218.14,
+            895.8,
+            471.82
+          ],
+          "point": [
+            573.88,
+            344.98
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 109,
+      "source_time_s": 3.636967,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8992,
+          "bbox": [
+            252.58,
+            217.59,
+            891.86,
+            472.49
+          ],
+          "point": [
+            572.22,
+            345.04
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 110,
+      "source_time_s": 3.670333,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.898,
+          "bbox": [
+            252.4,
+            216.23,
+            890.85,
+            472.02
+          ],
+          "point": [
+            571.62,
+            344.12
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 111,
+      "source_time_s": 3.7037,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9001,
+          "bbox": [
+            251.53,
+            217.77,
+            890.08,
+            474.13
+          ],
+          "point": [
+            570.81,
+            345.95
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 112,
+      "source_time_s": 3.737067,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9016,
+          "bbox": [
+            252.1,
+            218.74,
+            888.77,
+            474.5
+          ],
+          "point": [
+            570.43,
+            346.62
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 113,
+      "source_time_s": 3.770433,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9016,
+          "bbox": [
+            250.8,
+            219.19,
+            888.54,
+            474.89
+          ],
+          "point": [
+            569.67,
+            347.04
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 114,
+      "source_time_s": 3.8038,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8973,
+          "bbox": [
+            248.01,
+            219.67,
+            890.57,
+            476.31
+          ],
+          "point": [
+            569.29,
+            347.99
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 115,
+      "source_time_s": 3.837167,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8984,
+          "bbox": [
+            246.4,
+            218.0,
+            886.65,
+            475.8
+          ],
+          "point": [
+            566.52,
+            346.9
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 116,
+      "source_time_s": 3.870533,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9034,
+          "bbox": [
+            247.2,
+            218.31,
+            886.26,
+            474.4
+          ],
+          "point": [
+            566.73,
+            346.36
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 117,
+      "source_time_s": 3.9039,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8977,
+          "bbox": [
+            244.54,
+            215.21,
+            886.37,
+            472.98
+          ],
+          "point": [
+            565.46,
+            344.1
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 118,
+      "source_time_s": 3.937267,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8976,
+          "bbox": [
+            244.69,
+            215.68,
+            886.13,
+            470.59
+          ],
+          "point": [
+            565.41,
+            343.13
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 119,
+      "source_time_s": 3.970633,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9037,
+          "bbox": [
+            244.89,
+            217.0,
+            884.04,
+            471.29
+          ],
+          "point": [
+            564.46,
+            344.14
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "source_time_s": 4.004,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.906,
+          "bbox": [
+            244.69,
+            217.16,
+            883.07,
+            471.57
+          ],
+          "point": [
+            563.88,
+            344.37
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 121,
+      "source_time_s": 4.037367,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9083,
+          "bbox": [
+            243.86,
+            217.7,
+            885.71,
+            473.17
+          ],
+          "point": [
+            564.79,
+            345.44
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 122,
+      "source_time_s": 4.070733,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9086,
+          "bbox": [
+            243.84,
+            218.98,
+            883.86,
+            472.74
+          ],
+          "point": [
+            563.85,
+            345.86
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 123,
+      "source_time_s": 4.1041,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9099,
+          "bbox": [
+            242.69,
+            218.67,
+            881.19,
+            471.29
+          ],
+          "point": [
+            561.94,
+            344.98
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 124,
+      "source_time_s": 4.137467,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9054,
+          "bbox": [
+            240.88,
+            220.95,
+            880.55,
+            473.34
+          ],
+          "point": [
+            560.71,
+            347.14
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 125,
+      "source_time_s": 4.170833,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9074,
+          "bbox": [
+            240.23,
+            219.78,
+            879.45,
+            473.45
+          ],
+          "point": [
+            559.84,
+            346.62
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 126,
+      "source_time_s": 4.2042,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9095,
+          "bbox": [
+            238.72,
+            219.61,
+            876.92,
+            473.21
+          ],
+          "point": [
+            557.82,
+            346.41
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 127,
+      "source_time_s": 4.237567,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9083,
+          "bbox": [
+            238.33,
+            219.93,
+            874.5,
+            473.6
+          ],
+          "point": [
+            556.41,
+            346.76
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 128,
+      "source_time_s": 4.270933,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9093,
+          "bbox": [
+            238.6,
+            219.94,
+            875.42,
+            472.94
+          ],
+          "point": [
+            557.01,
+            346.44
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 129,
+      "source_time_s": 4.3043,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.907,
+          "bbox": [
+            238.81,
+            220.07,
+            873.91,
+            473.97
+          ],
+          "point": [
+            556.36,
+            347.02
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 130,
+      "source_time_s": 4.337667,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8971,
+          "bbox": [
+            238.98,
+            220.53,
+            875.47,
+            474.53
+          ],
+          "point": [
+            557.23,
+            347.53
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 131,
+      "source_time_s": 4.371033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.901,
+          "bbox": [
+            238.76,
+            220.2,
+            874.5,
+            474.82
+          ],
+          "point": [
+            556.63,
+            347.51
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 132,
+      "source_time_s": 4.4044,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8841,
+          "bbox": [
+            241.32,
+            221.63,
+            874.68,
+            477.69
+          ],
+          "point": [
+            558.0,
+            349.66
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 133,
+      "source_time_s": 4.437767,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8995,
+          "bbox": [
+            238.91,
+            220.66,
+            873.62,
+            476.07
+          ],
+          "point": [
+            556.26,
+            348.37
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 134,
+      "source_time_s": 4.471133,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8979,
+          "bbox": [
+            239.94,
+            221.24,
+            872.68,
+            475.44
+          ],
+          "point": [
+            556.31,
+            348.34
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 135,
+      "source_time_s": 4.5045,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.892,
+          "bbox": [
+            238.07,
+            221.13,
+            871.88,
+            475.7
+          ],
+          "point": [
+            554.98,
+            348.41
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 136,
+      "source_time_s": 4.537867,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9006,
+          "bbox": [
+            238.59,
+            221.38,
+            870.61,
+            474.53
+          ],
+          "point": [
+            554.6,
+            347.95
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 137,
+      "source_time_s": 4.571233,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8692,
+          "bbox": [
+            238.31,
+            222.08,
+            871.55,
+            475.07
+          ],
+          "point": [
+            554.93,
+            348.57
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 138,
+      "source_time_s": 4.6046,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8824,
+          "bbox": [
+            237.56,
+            224.55,
+            874.23,
+            478.82
+          ],
+          "point": [
+            555.89,
+            351.69
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 139,
+      "source_time_s": 4.637967,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8891,
+          "bbox": [
+            236.67,
+            222.94,
+            874.07,
+            477.58
+          ],
+          "point": [
+            555.37,
+            350.26
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 140,
+      "source_time_s": 4.671333,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8904,
+          "bbox": [
+            236.52,
+            224.08,
+            873.77,
+            478.32
+          ],
+          "point": [
+            555.14,
+            351.2
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 141,
+      "source_time_s": 4.7047,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8871,
+          "bbox": [
+            230.8,
+            222.8,
+            873.48,
+            477.13
+          ],
+          "point": [
+            552.14,
+            349.97
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 142,
+      "source_time_s": 4.738067,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9022,
+          "bbox": [
+            232.24,
+            222.67,
+            868.85,
+            477.51
+          ],
+          "point": [
+            550.55,
+            350.09
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 143,
+      "source_time_s": 4.771433,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9058,
+          "bbox": [
+            231.91,
+            223.4,
+            868.18,
+            477.74
+          ],
+          "point": [
+            550.04,
+            350.57
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 144,
+      "source_time_s": 4.8048,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9044,
+          "bbox": [
+            231.42,
+            222.34,
+            863.46,
+            475.2
+          ],
+          "point": [
+            547.44,
+            348.77
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 145,
+      "source_time_s": 4.838167,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9094,
+          "bbox": [
+            231.35,
+            223.22,
+            865.06,
+            475.62
+          ],
+          "point": [
+            548.2,
+            349.42
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 146,
+      "source_time_s": 4.871533,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9081,
+          "bbox": [
+            231.27,
+            225.64,
+            866.09,
+            478.79
+          ],
+          "point": [
+            548.68,
+            352.22
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 147,
+      "source_time_s": 4.9049,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9059,
+          "bbox": [
+            233.52,
+            226.41,
+            869.03,
+            480.9
+          ],
+          "point": [
+            551.27,
+            353.65
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 148,
+      "source_time_s": 4.938267,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8941,
+          "bbox": [
+            228.56,
+            228.1,
+            867.6,
+            481.12
+          ],
+          "point": [
+            548.08,
+            354.61
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 149,
+      "source_time_s": 4.971633,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8902,
+          "bbox": [
+            227.1,
+            227.8,
+            867.24,
+            480.61
+          ],
+          "point": [
+            547.17,
+            354.21
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 150,
+      "source_time_s": 5.005,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9033,
+          "bbox": [
+            227.55,
+            227.51,
+            867.34,
+            479.52
+          ],
+          "point": [
+            547.45,
+            353.51
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 151,
+      "source_time_s": 5.038367,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9039,
+          "bbox": [
+            228.46,
+            227.22,
+            867.65,
+            479.39
+          ],
+          "point": [
+            548.05,
+            353.31
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 152,
+      "source_time_s": 5.071733,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9052,
+          "bbox": [
+            227.17,
+            227.38,
+            868.64,
+            477.07
+          ],
+          "point": [
+            547.9,
+            352.23
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 153,
+      "source_time_s": 5.1051,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9066,
+          "bbox": [
+            226.35,
+            227.08,
+            869.23,
+            476.82
+          ],
+          "point": [
+            547.79,
+            351.95
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 154,
+      "source_time_s": 5.138467,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9066,
+          "bbox": [
+            226.59,
+            227.16,
+            870.21,
+            477.21
+          ],
+          "point": [
+            548.4,
+            352.19
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 155,
+      "source_time_s": 5.171833,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9103,
+          "bbox": [
+            226.55,
+            227.29,
+            870.09,
+            477.46
+          ],
+          "point": [
+            548.32,
+            352.38
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 156,
+      "source_time_s": 5.2052,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8981,
+          "bbox": [
+            227.33,
+            228.03,
+            872.06,
+            481.46
+          ],
+          "point": [
+            549.69,
+            354.75
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 157,
+      "source_time_s": 5.238567,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9072,
+          "bbox": [
+            226.13,
+            227.06,
+            866.03,
+            482.35
+          ],
+          "point": [
+            546.08,
+            354.71
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 158,
+      "source_time_s": 5.271933,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9068,
+          "bbox": [
+            225.14,
+            230.11,
+            865.13,
+            483.09
+          ],
+          "point": [
+            545.13,
+            356.6
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 159,
+      "source_time_s": 5.3053,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9043,
+          "bbox": [
+            223.61,
+            232.06,
+            866.05,
+            483.63
+          ],
+          "point": [
+            544.83,
+            357.85
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 160,
+      "source_time_s": 5.338667,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9038,
+          "bbox": [
+            223.02,
+            231.62,
+            866.21,
+            483.87
+          ],
+          "point": [
+            544.62,
+            357.75
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 161,
+      "source_time_s": 5.372033,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9006,
+          "bbox": [
+            223.31,
+            230.47,
+            866.16,
+            483.53
+          ],
+          "point": [
+            544.74,
+            357.0
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 162,
+      "source_time_s": 5.4054,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9047,
+          "bbox": [
+            222.09,
+            231.03,
+            863.64,
+            483.57
+          ],
+          "point": [
+            542.87,
+            357.3
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 163,
+      "source_time_s": 5.438767,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9029,
+          "bbox": [
+            222.05,
+            229.67,
+            864.62,
+            482.58
+          ],
+          "point": [
+            543.34,
+            356.12
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 164,
+      "source_time_s": 5.472133,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9054,
+          "bbox": [
+            219.61,
+            232.8,
+            865.94,
+            484.41
+          ],
+          "point": [
+            542.78,
+            358.61
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 165,
+      "source_time_s": 5.5055,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9073,
+          "bbox": [
+            218.54,
+            233.86,
+            865.61,
+            484.66
+          ],
+          "point": [
+            542.08,
+            359.26
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 166,
+      "source_time_s": 5.538867,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9045,
+          "bbox": [
+            217.72,
+            234.35,
+            865.55,
+            484.71
+          ],
+          "point": [
+            541.63,
+            359.53
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 167,
+      "source_time_s": 5.572233,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9066,
+          "bbox": [
+            218.27,
+            237.47,
+            863.16,
+            486.2
+          ],
+          "point": [
+            540.72,
+            361.83
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 168,
+      "source_time_s": 5.6056,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9055,
+          "bbox": [
+            219.06,
+            234.83,
+            862.48,
+            484.71
+          ],
+          "point": [
+            540.77,
+            359.77
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "source_time_s": 5.638967,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9041,
+          "bbox": [
+            218.79,
+            235.7,
+            862.38,
+            485.2
+          ],
+          "point": [
+            540.59,
+            360.45
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 170,
+      "source_time_s": 5.672333,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8984,
+          "bbox": [
+            217.99,
+            239.33,
+            862.39,
+            486.04
+          ],
+          "point": [
+            540.19,
+            362.69
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 171,
+      "source_time_s": 5.7057,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8965,
+          "bbox": [
+            218.0,
+            237.78,
+            861.7,
+            485.35
+          ],
+          "point": [
+            539.85,
+            361.56
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 172,
+      "source_time_s": 5.739067,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9026,
+          "bbox": [
+            217.58,
+            236.12,
+            861.26,
+            485.69
+          ],
+          "point": [
+            539.42,
+            360.9
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 173,
+      "source_time_s": 5.772433,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8815,
+          "bbox": [
+            215.72,
+            237.82,
+            858.69,
+            486.23
+          ],
+          "point": [
+            537.21,
+            362.02
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 174,
+      "source_time_s": 5.8058,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8839,
+          "bbox": [
+            213.67,
+            239.22,
+            859.48,
+            486.11
+          ],
+          "point": [
+            536.58,
+            362.67
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 175,
+      "source_time_s": 5.839167,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8913,
+          "bbox": [
+            211.64,
+            241.01,
+            858.64,
+            486.99
+          ],
+          "point": [
+            535.14,
+            364.0
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 176,
+      "source_time_s": 5.872533,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8893,
+          "bbox": [
+            211.75,
+            240.36,
+            859.35,
+            485.63
+          ],
+          "point": [
+            535.55,
+            363.0
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 177,
+      "source_time_s": 5.9059,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8897,
+          "bbox": [
+            212.0,
+            240.44,
+            859.61,
+            484.97
+          ],
+          "point": [
+            535.81,
+            362.71
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 178,
+      "source_time_s": 5.939267,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.8945,
+          "bbox": [
+            211.22,
+            241.99,
+            860.01,
+            484.21
+          ],
+          "point": [
+            535.62,
+            363.1
+          ],
+          "observation": "detected"
+        }
+      ]
+    },
+    {
+      "frame": 179,
+      "source_time_s": 5.972633,
+      "objects": [
+        {
+          "id": "V1",
+          "label": "vehicle",
+          "class_id": 7,
+          "class_name": "truck",
+          "confidence": 0.9033,
+          "bbox": [
+            208.74,
+            241.66,
+            859.9,
+            484.36
+          ],
+          "point": [
+            534.32,
+            363.01
+          ],
+          "observation": "detected"
+        }
+      ]
+    }
+  ]
+}
